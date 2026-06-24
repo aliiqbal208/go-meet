@@ -1,0 +1,8 @@
+# Compiled binary (follows the server dir / module name)
+go-video-conference
+server
+
+# Logs / local artifacts
+*.log
+info.log
+video

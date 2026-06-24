@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Go — compiled SFU binary (name follows the server dir)
+/server/go-video-conference
+/server/server
+*.test
+*.out
+
+# Node / frontend build output
+node_modules/
+/frontend/dist/
+/frontend/dist-ssr/
+*.local
+
+# Env / secrets
+!.env.example
+config.bat
